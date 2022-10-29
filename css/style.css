@@ -1,0 +1,93 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Bai Jamjuree", sans-serif;
+    background-color: #F2F1EF;
+    margin: 0;
+    padding: 0;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px solid #000;
+}
+
+.btn {
+    font-family: "Bai Jamjuree", sans-serif;
+    border-radius: 0;
+    border: 1px solid #000;
+    background-color: #F2F1EF;
+    padding: 9px 26px;
+    transition: linear 0.2s;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #F2F1EF;
+    cursor: pointer;
+}
+
+/* Header */
+.nav ul {
+    display: flex;
+}
+
+.logo {
+    align-items: center;
+}
+
+.logo img:last-child {
+    margin-left: 13px;
+    transform: translateY(-4px);
+}
+
+.nav ul li {
+    margin-right: 32px;
+}
+
+.nav ul li:lsat-child {
+    margin-right: 0px;
+}
+
+/* Intro */
+.intro {
+    padding-top: 76px;
+}
+
+.intro_text_part {
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.56px;
+}
+
+.intro_text_part img {
+    margin: 0 12px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.buttons .btn {
+    padding: 13px 33px;
+}
